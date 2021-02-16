@@ -1,0 +1,18 @@
+[
+  {
+    "serviceId": "ms-order",
+    "host": "192.168.1.100",
+    "port": 8080,
+    "secure": false,
+    "metadata": {
+      "nacos.instanceId": "192.168.1.100#8080#DEFAULT#DEFAULT_GROUP@@ms-order",
+      "nacos.weight": "1.0",
+      "nacos.cluster": "DEFAULT",
+      "nacos.healthy": "true",
+      "preserved.register.source": "SPRING_CLOUD"
+    },
+    "uri": "http://192.168.1.100:8080",
+    "scheme": null,
+    "instanceId": null
+  }
+]

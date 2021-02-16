@@ -1,0 +1,13 @@
+server:
+  port: 9081
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.25.141:83
+        namespace: edf1681f-c2b1-49e6-a361-dad51c50d97d
+        cluster-name: bj
+        metadata:
+          current-version: v1
+  application:
+    name: ms-product

@@ -1,0 +1,10 @@
+server:
+  port: 9092
+spring:
+  cloud:
+    nacos:
+      server-addr: 192.168.25.141:83
+      discovery:
+        namespace: edf1681f-c2b1-49e6-a361-dad51c50d97d
+  application:
+    name: ms-pay

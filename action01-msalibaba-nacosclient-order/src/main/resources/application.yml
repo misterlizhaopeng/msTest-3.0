@@ -1,0 +1,29 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.25.141:83
+        namespace: edf1681f-c2b1-49e6-a361-dad51c50d97d # 58eb0a6f-1efb-4f0c-9d81-0f96fad9879e  c78b75d0-e545-47cd-8455-85a1087cf49a
+  #        namespace: public  #c78b75d0-e545-47cd-8455-85a1087cf49a  ①此处只能为 namespaceId，不能为名称，否则找不到；②还一个注意的就是需要提前在nacos服务端把命名空间创建完成；③如果当前配置文件不存在命名空间的配置，默认为public
+#        group: pay
+        cluster-name: nj
+        metadata:
+          current-version: v1
+  application:
+    name: ms-order
+
+# 金丝雀发布小结：首先要注意的就是所有运行的服务实例都必须在同一个环境下，比如在生成环境，或者开发环境下，在nacos注册中心中，这个环境也就是namespace来代表；其次，必须在同一个group下，因为在nacos注册中心下，
+# 不同的group之间的服务也不能访问，第三，就要看集群和版本了，一般对于生产环境来说，服务之间产生调用尽量在同一个集群（比如北京的集群、上海的集群、深圳的集群）发生，如果同一个集群的被调用的所有的服务都不能用，nacos注册中心也支持
+# 跨集群调用，但是不支持跨版本调用，这样才能符合生产的要求，因为不同版本之间的服务不能调用，就为金丝雀发布提供了可能性，但是此处ribbon本身不支持跨集群，所以，使用ribbon实现集群之间的金丝雀发布，需要重写IRule接口；
+
+
+## 当前订单服务访问ms-product服务，采用随机算法
+#ms-product:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+## 当前订单服务访问ms-pay服务，采用轮询算法
+#ms-pay:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule*

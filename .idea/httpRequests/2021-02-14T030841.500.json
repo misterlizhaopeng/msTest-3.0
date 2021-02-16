@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-02-14T07:08:41.537+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Missing URI template variable 'orderId' for method parameter of type String",
+  "path": "/selectOrderInfoById/123"
+}

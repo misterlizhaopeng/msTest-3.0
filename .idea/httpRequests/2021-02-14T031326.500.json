@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-02-14T07:13:26.251+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "500 null",
+  "path": "/selectOrderInfoById/123ss"
+}

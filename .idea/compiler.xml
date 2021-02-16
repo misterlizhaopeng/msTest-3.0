@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="action01-msalibaba-common" />
+        <module name="action01-msalibaba-nacosclient-order" />
+        <module name="action01-msalibaba-nacosclient-pay" />
+        <module name="action01-msalibaba-nacosclient-product" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="action01-msalibaba-nacosclient-product (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="action01-msalibaba-common" options="-parameters" />
+      <module name="action01-msalibaba-nacosclient-order" options="-parameters" />
+      <module name="action01-msalibaba-nacosclient-pay" options="-parameters" />
+      <module name="action01-msalibaba-nacosclient-product" options="-parameters" />
+      <module name="action01-msalibaba-nacosclient-product (1)" options="-parameters" />
+      <module name="msTest-3.0" options="" />
+    </option>
+  </component>
+</project>

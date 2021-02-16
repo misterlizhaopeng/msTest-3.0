@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-02-14T07:24:19.456+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Error while extracting response for type [class java.lang.Object] and content type [application/json;charset=UTF-8]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'intpu': was expecting ('true', 'false' or 'null'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'intpu': was expecting ('true', 'false' or 'null')\n at [Source: (PushbackInputStream); line: 1, column: 7]",
+  "path": "/selectOrderInfoById/123ss"
+}

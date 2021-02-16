@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-02-14T07:14:48.652+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Error while extracting response for type [class java.lang.Object] and content type [application/json;charset=UTF-8]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Invalid UTF-8 start byte 0xbc; nested exception is com.fasterxml.jackson.core.JsonParseException: Invalid UTF-8 start byte 0xbc\n at [Source: (PushbackInputStream); line: 1, column: 3]",
+  "path": "/selectOrderInfoById/123ss"
+}
