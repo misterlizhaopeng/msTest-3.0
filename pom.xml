@@ -8,6 +8,8 @@
         <module>action01-msalibaba-nacosclient-product</module>
         <module>action01-msalibaba-common</module>
         <module>action01-msalibaba-nacosclient-pay</module>
+        <module>action01-ms-alibaba-feign-api</module>
+        <module>action01-ms-alibaba-feign-order</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

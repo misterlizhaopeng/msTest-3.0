@@ -7,6 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="action01-ms-alibaba-feign-api" />
+        <module name="action01-ms-alibaba-feign-order" />
         <module name="action01-msalibaba-common" />
         <module name="action01-msalibaba-nacosclient-order" />
         <module name="action01-msalibaba-nacosclient-pay" />
@@ -19,6 +21,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="action01-ms-alibaba-feign-api" options="-parameters" />
+      <module name="action01-ms-alibaba-feign-order" options="-parameters" />
       <module name="action01-msalibaba-common" options="-parameters" />
       <module name="action01-msalibaba-nacosclient-order" options="-parameters" />
       <module name="action01-msalibaba-nacosclient-pay" options="-parameters" />
