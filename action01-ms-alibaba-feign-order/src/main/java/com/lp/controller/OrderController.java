@@ -2,6 +2,7 @@ package com.lp.controller;
 
 import com.lp.feignapi.pay.PayFeignAPI;
 import com.lp.feignapi.product.ProductFeignAPI;
+import feign.RequestLine;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -41,6 +42,11 @@ public class OrderController {
     public Result pdt(@PathVariable("orderId") String orderId) {
         return productFeignAPI.pdt(orderId);
     }
+
+//    @RequestLine("GET /pdt/{orderId}")
+//    public Result pdt(@PathVariable("orderId") String orderId) {
+//        return productFeignAPI.pdt(orderId);
+//    }
 
 
     @RequestMapping(value = "/pay/{orderId}", method = RequestMethod.GET)

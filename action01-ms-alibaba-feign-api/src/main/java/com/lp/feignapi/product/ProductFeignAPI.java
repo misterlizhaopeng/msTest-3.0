@@ -1,6 +1,7 @@
 package com.lp.feignapi.product;
 
 import com.lp.config.ProductConfig;
+import feign.RequestLine;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,5 +27,8 @@ public interface ProductFeignAPI {
 
     @RequestMapping(value = "/pdt/{orderId}", method = RequestMethod.GET)
     Result pdt(@PathVariable("orderId") String orderId);
+
+//    @RequestLine("GET /pdt/{orderId}")
+//    Result pdt(@PathVariable("orderId") String orderId);
 }
 

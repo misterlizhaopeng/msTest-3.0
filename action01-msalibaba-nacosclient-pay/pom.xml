@@ -34,7 +34,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+        <!--引入feign-api-->
+        <dependency>
+            <groupId>msTest-3.0</groupId>
+            <artifactId>action01-ms-alibaba-feign-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

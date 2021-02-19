@@ -1,7 +1,10 @@
 package com.lp.config;
 
+import feign.Contract;
 import feign.Logger;
+import org.springframework.cloud.openfeign.support.SpringMvcContract;
 import org.springframework.context.annotation.Bean;
+import org.springframework.core.convert.ConversionService;
 
 /**
  * @ClassName com.lp.config.ProductConfig
@@ -23,16 +26,15 @@ public class ProductConfig {
     }
 
     /**
-     * 根据SpringBoot自动装配 FeignClientsConfiguration 的FeignClient 的契约是SpringMvc
-     *
-     通过修改契约为默认的Feign的锲约，那么就可以使用默认的注解
+     * 根据SpringBoot自动装配 FeignClientsConfiguration 的 FeignClient 的契约是 SpringMvc
+
+        通过修改契约为默认的Feign的锲约，那么就可以使用默认的注解
      * @return
      */
-
-  /*  @Bean
-    public Contract feiContract() {
-        return new Contract.Default();
-    }*/
+//    @Bean
+//    public Contract feiContract() {
+//        return new Contract.Default();
+//    }
 
 
 }

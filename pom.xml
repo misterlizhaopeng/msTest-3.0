@@ -35,14 +35,6 @@
             <version>${lomback.version}</version>
             <scope>provided</scope>
         </dependency>
-
-        <dependency>
-            <groupId>msTest-3.0</groupId>
-            <artifactId>action01-msalibaba-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-
     </dependencies>
     <dependencyManagement>
         <dependencies>
@@ -80,7 +72,7 @@
     </repositories>
 
 
-    <build>
+    <!--<build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -88,6 +80,6 @@
             </plugin>
         </plugins>
     </build>
-
+-->
 
 </project>
