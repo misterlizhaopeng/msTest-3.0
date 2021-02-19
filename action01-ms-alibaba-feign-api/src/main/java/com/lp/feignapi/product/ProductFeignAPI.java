@@ -15,7 +15,7 @@ import vo.Result;
  * @Version 1.0
  **/
 //name 是被请求的微服务名称，configuration为配置中心，此处配置了日志的级别，是否支持springmvc这样的请求契约，拦截器
-@FeignClient(name = "ms-product",configuration = ProductConfig.class)
+@FeignClient(name = "ms-product")  //,configuration = ProductConfig.class
 public interface ProductFeignAPI {
 
     @RequestMapping(value = "/selectOrderInfoById/{orderId}", method = RequestMethod.GET)

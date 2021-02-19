@@ -5,6 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import vo.Result;
 
 /**
  * @ClassName com.lp.feignapi.pay.PayFeignAPI
@@ -19,5 +20,8 @@ public interface PayFeignAPI {
 
     @RequestMapping(value = "/selectOrderInfoById/{orderId}", method = RequestMethod.GET)
     Object selectOrderInfoById(@PathVariable("orderId") String orderId);
+
+    @RequestMapping(value = "/pt/{orderId}", method = RequestMethod.GET)
+    Result pt(@PathVariable("orderId") String orderId);
 }
 

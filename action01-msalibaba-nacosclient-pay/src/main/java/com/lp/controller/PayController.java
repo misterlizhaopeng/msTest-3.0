@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import vo.Result;
 
 import java.util.Objects;
 
@@ -26,6 +27,16 @@ public class PayController {
             return "from service=pay,server port is :" + port + ",input id is：" + orderId;
         }
         return "";
+    }
+
+
+    @RequestMapping(value = "/pt/{orderId}", method = RequestMethod.GET)
+    public Result pt(@PathVariable("orderId") String orderId) {
+        if (!Objects.isNull(orderId) || orderId.isEmpty()) {
+            String result="from service=pay,server port is :" + port + ",input id is：" + orderId;
+            return Result.success(result);
+        }
+        return null;
     }
 }
 

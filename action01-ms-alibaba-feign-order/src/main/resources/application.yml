@@ -11,3 +11,15 @@ spring:
         cluster-name: bj
         metadata:
           current-version: v1
+
+# 指定FeignClientApi 的日志级别，起到一个开关的作用
+logging:
+  level:
+    com:
+      lp:
+        feignapi: debug
+feign:
+  client:
+    config:
+      ms-product:
+        loggerLevel: basic #full

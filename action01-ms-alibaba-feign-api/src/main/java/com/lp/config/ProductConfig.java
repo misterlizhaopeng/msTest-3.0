@@ -14,11 +14,11 @@ public class ProductConfig {
     @Bean
     public Logger.Level level(){
         //打印所有日志
-        return Logger.Level.FULL;
+        return Logger.Level.FULL;//这种情况，在生成上不能使用，日志量太大
 
         //
         //return Logger.Level.HEADERS;
-        //return Logger.Level.BASIC;
+        //return Logger.Level.BASIC; 生成上最多一般建议用此种feign的日志级别
         //return Logger.Level.NONE;
     }
 

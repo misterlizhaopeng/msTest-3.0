@@ -47,5 +47,10 @@ public class OrderController {
     public Object pay(@PathVariable("orderId") String orderId) {
         return payFeignAPI.selectOrderInfoById(orderId);
     }
+
+    @RequestMapping(value = "/pt/{orderId}", method = RequestMethod.GET)
+    public Object pt(@PathVariable("orderId") String orderId) {
+        return payFeignAPI.pt(orderId);
+    }
 }
 
