@@ -23,6 +23,10 @@
             <artifactId>action01-msalibaba-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+        </dependency>
     </dependencies>
     <!--当前工程要打成jar包，以此工程为父工程的子工程也是会被打为jar包-->
     <build>

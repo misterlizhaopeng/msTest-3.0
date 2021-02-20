@@ -4,10 +4,7 @@ import com.lp.feignapi.pay.PayFeignAPI;
 import com.lp.feignapi.product.ProductFeignAPI;
 import feign.RequestLine;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import vo.Result;
 
 /**
@@ -41,6 +38,16 @@ public class OrderController {
     @RequestMapping(value = "/pdt/{orderId}", method = RequestMethod.GET)
     public Result pdt(@PathVariable("orderId") String orderId) {
         return productFeignAPI.pdt(orderId);
+    }
+
+    /**
+     * 测试拦截器，这个例子不太好，个人从msTest-2.0的经验得出，应该从拦截器里面获取被拦截的数据，进行操作才可以说明拦截器的作用
+     * @param token
+     * @return
+     */
+    @RequestMapping(value = "/inctp", method = RequestMethod.GET)
+    Result inctp(@RequestHeader("token") String token){
+        return productFeignAPI.inctp(token);
     }
 
 //    @RequestLine("GET /pdt/{orderId}")
