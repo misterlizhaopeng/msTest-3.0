@@ -21,5 +21,20 @@ logging:
 feign:
   client:
     config:
-      ms-product:
-        loggerLevel: basic #full
+      default:
+        connectTimeout: 2000 #feign 配置超时(已Feign的超时说了算，和下面的ribbon.connectTimeout 一起使用的情况下，feign的超时时间优先级别更高)
+        readTimeout: 2000
+      ms-product: #当前服务调用的哪个服务名称
+        loggerLevel: basic #full  #feign 的日志级别，和上面日志开关一起使用
+  httpclient:  #让 feign 底层使用HttpClient 去调用
+    enabled: true
+    max-connections: 200
+    max-connections-per-route: 50
+
+#超时配置
+ribbon: #ribbon 超时配置
+  connectTimeout: 5000
+  readTime: 5000
+  http:
+    client:
+      enabled: true

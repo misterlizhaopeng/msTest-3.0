@@ -42,6 +42,11 @@ public class ProductController {
     @RequestMapping(value = "/pdt/{orderId}", method = RequestMethod.GET)
     public Result pdt(@PathVariable("orderId") String orderId) {
         if (!Objects.isNull(orderId) || orderId.isEmpty()) {
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             return  Result.success("from service=product,server port is :" + port + ",input id is：" + orderId);
         }
         return Result.fail();
