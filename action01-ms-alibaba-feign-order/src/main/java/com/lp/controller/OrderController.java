@@ -1,8 +1,10 @@
 package com.lp.controller;
 
+import com.lp.common.TestCls;
 import com.lp.feignapi.pay.PayFeignAPI;
 import com.lp.feignapi.product.ProductFeignAPI;
 import feign.RequestLine;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import vo.Result;
@@ -14,6 +16,7 @@ import vo.Result;
  * @Date 2021/2/17 20:36
  * @Version 1.0
  **/
+@Slf4j
 @RestController
 public class OrderController {
 
@@ -37,7 +40,10 @@ public class OrderController {
 
     @RequestMapping(value = "/pdt/{orderId}", method = RequestMethod.GET)
     public Result pdt(@PathVariable("orderId") String orderId) {
-        return productFeignAPI.pdt(orderId);
+
+        TestCls testCls = new TestCls();
+        String goAction = testCls.testStr("goAction");
+        return productFeignAPI.pdt(orderId+":-->"+goAction);
     }
 
     /**

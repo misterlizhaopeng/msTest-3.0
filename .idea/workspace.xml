@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="551fc32f-c484-42dc-9613-467c751432e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action01-ms-alibaba-feign-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/action01-ms-alibaba-feign-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/java/com/lp/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/java/com/lp/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action01-msalibaba-nacosclient-product/src/main/java/com/lp/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/action01-msalibaba-nacosclient-product/src/main/java/com/lp/controller/ProductController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,34 +38,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/action01-msalibaba-nacosclient-product/src/main/java/com/lp/controller/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/java/com/lp/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="24" column="102" selection-start-line="24" selection-start-column="102" selection-end-line="24" selection-end-column="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/java/com/lp/MsAlibabaFeignOrderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="245">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
+                <element signature="e#1792#1793#0" expanded="true" />
+                <element signature="e#1855#1856#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,7 +66,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>singletonInstance</find>
       <find>setInterceptors</find>
       <find>AnnotationConfigApplicationContext</find>
       <find>afterPropertiesSet</find>
@@ -112,6 +95,7 @@
       <find>apache.maven</find>
       <find>SelfInterceptor</find>
       <find>HttpServletRequest</find>
+      <find>Tomcat started</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,14 +147,14 @@
         <option value="$PROJECT_DIR$/action01-msalibaba-common/src/main/java/com/lp/MainCls.java" />
         <option value="$PROJECT_DIR$/action01-msalibaba-common/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/action01-ms-alibaba-feign-api/pom.xml" />
         <option value="$PROJECT_DIR$/action01-msalibaba-common/src/main/java/entity/FeignInterceptor.java" />
         <option value="$PROJECT_DIR$/action01-ms-alibaba-feign-api/src/main/java/com/lp/handler/FeignInterceptor.java" />
         <option value="$PROJECT_DIR$/action01-ms-alibaba-feign-api/src/main/java/com/lp/feignapi/product/ProductFeignAPI.java" />
-        <option value="$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/java/com/lp/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/action01-msalibaba-nacosclient-product/src/main/java/com/lp/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/action01-msalibaba-nacosclient-product/src/main/java/com/lp/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/action01-ms-alibaba-feign-api/pom.xml" />
         <option value="$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/java/com/lp/controller/OrderController.java" />
       </list>
     </option>
   </component>
@@ -194,8 +178,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="146" />
-    <option name="y" value="98" />
+    <option name="x" value="279" />
+    <option name="y" value="13" />
     <option name="width" value="852" />
     <option name="height" value="516" />
   </component>
@@ -221,96 +205,7 @@
             </path>
             <path>
               <item name="msTest-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="action01-ms-alibaba-feign-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="action01-ms-alibaba-feign-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="action01-ms-alibaba-feign-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="action01-ms-alibaba-feign-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="action01-ms-alibaba-feign-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="action01-ms-alibaba-feign-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="action01-msalibaba-nacosclient-product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="action01-msalibaba-nacosclient-product" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="action01-msalibaba-nacosclient-product" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="action01-msalibaba-nacosclient-product" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="action01-msalibaba-nacosclient-product" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest-3.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest-3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="action01-msalibaba-nacosclient-product" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -328,10 +223,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614173269097" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614311045339" />
     <property name="last_opened_file_path" value="S:/tuling/sanqi/五：微服务专题/01.微服务入门&amp;Nacos实战-司马/1、微服务入门&amp;Nacos实战-司马-2月5号/源代码/tulingvip-cloud-alibaba" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -469,7 +365,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.30864197" />
+    <option name="contentProportion" value="0.35621622" />
   </component>
   <component name="RunManager" selected="Spring Boot.MsAlibabaFeignOrderApplication">
     <configuration name="MsAlibabaFeignOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -542,12 +438,12 @@
       <workItem from="1613456678134" duration="34067000" />
       <workItem from="1613694938817" duration="17307000" />
       <workItem from="1613815035663" duration="2930000" />
-      <workItem from="1613955952809" duration="3862000" />
+      <workItem from="1613955952809" duration="10020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93637000" />
+    <option name="totallyTimeSpent" value="99795000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,7 +458,7 @@
     <frame x="-4" y="-4" width="1928" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21086262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36155483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -580,13 +476,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49893504" weight="0.39915073" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49893504" weight="0.23460722" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5022659" side_tool="true" weight="0.41269842" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32857144" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32857144" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49946752" weight="0.32698414" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49773413" visible="true" weight="0.46921444" />
-      <window_info anchor="right" id="Maven" order="0" weight="0.32960597" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49773413" visible="true" weight="0.3280255" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.3003195" />
       <window_info anchor="right" id="Bean Validation" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
@@ -643,13 +539,13 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/java/com/lp/controller/OrderController.java</url>
-          <line>29</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/java/com/lp/controller/OrderController.java</url>
-          <line>27</line>
+          <line>30</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
@@ -719,20 +615,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.3.RELEASE/spring-cloud-netflix-ribbon-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -1034,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/action01-ms-alibaba-feign-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/action01-ms-alibaba-feign-api/src/main/java/com/lp/feignapi/product/ProductFeignAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1081,10 +956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/java/com/lp/controller/OrderController.java">
+    <entry file="file://$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/java/com/lp/MsAlibabaFeignOrderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="208">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1093,28 +968,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/action01-msalibaba-nacosclient-product/src/main/java/com/lp/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="412">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/java/com/lp/MsAlibabaFeignOrderApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar!/org/springframework/boot/web/embedded/tomcat/TomcatWebServer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="156">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="24" column="102" selection-start-line="24" selection-start-column="102" selection-end-line="24" selection-end-column="102" />
+        <state relative-caret-position="206">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/action01-ms-alibaba-feign-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/lp/common/common-arch/1.0-TEST/common-arch-1.0-TEST.jar!/com/lp/common/TestCls.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/action01-ms-alibaba-feign-order/src/main/java/com/lp/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

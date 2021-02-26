@@ -27,6 +27,11 @@
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.lp.common</groupId>
+            <artifactId>common-arch</artifactId>
+            <version>1.0-TEST</version>
+        </dependency>
     </dependencies>
     <!--当前工程要打成jar包，以此工程为父工程的子工程也是会被打为jar包-->
     <build>
